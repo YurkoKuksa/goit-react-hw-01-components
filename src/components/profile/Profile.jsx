@@ -19,18 +19,18 @@ export const Profile = ({ username, tag, avatar, stats, location }) => {
         <StyledParagraph>{tag}</StyledParagraph>
         <StyledParagraph>{location}</StyledParagraph>
       </StyledDescription>
-      <StyledStats className="stats">
+      <StyledStats>
         <StyledList>
-          <StyledLabel className="label">Followers</StyledLabel>
-          <StyledValue className="quantity">{stats.followers}</StyledValue>
+          <StyledLabel>Followers</StyledLabel>
+          <StyledValue>{stats.followers}</StyledValue>
         </StyledList>
         <StyledList>
-          <StyledLabel className="label">Views</StyledLabel>
-          <StyledValue className="quantity">{stats.views}</StyledValue>
+          <StyledLabel>Views</StyledLabel>
+          <StyledValue>{stats.views}</StyledValue>
         </StyledList>
         <StyledList>
-          <StyledLabel className="label">Likes</StyledLabel>
-          <StyledValue className="quantity">{stats.likes}</StyledValue>
+          <StyledLabel>Likes</StyledLabel>
+          <StyledValue>{stats.likes}</StyledValue>
         </StyledList>
       </StyledStats>
     </StyledWrapper>

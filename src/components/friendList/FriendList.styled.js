@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledWrapper = styled.ul`
   width: 800px;
-  background-color: #aaaaaa;
+  background-color: lightgray;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;

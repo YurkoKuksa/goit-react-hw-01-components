@@ -6,6 +6,7 @@ export const StyledWrapper = styled.div`
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
+  padding: 20px;
 `;
 
 export const StyledDescription = styled.div`
@@ -47,27 +48,37 @@ export const StyledStats = styled.ul`
   list-style-type: none;
 
   display: flex;
-  gap: 30px;
+  flex-direction: row;
+  gap: 0;
   justify-content: center;
-  /* outline: 1px solid red; */
-  width: 230px;
-
+  align-items: center;
   padding: 0;
+  width: 270px;
+  border: 1px solid #e0e0e0;
+  background-color: #fdf8f8;
 `;
 
 export const StyledList = styled.li`
   display: flex;
-  gap: 10px;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  min-width: 50px;
 `;
 
 export const StyledLabel = styled.span`
   font-style: italic;
-
-  margin: 0 auto;
+  text-align: center;
 `;
 
 export const StyledValue = styled.span`
-  margin: 0 auto;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
 `;
