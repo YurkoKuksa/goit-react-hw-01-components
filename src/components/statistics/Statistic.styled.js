@@ -12,6 +12,7 @@ export const StyledTitle = styled.h2`
   margin-left: auto;
   margin-right: auto;
   color: green;
+  text-align: center;
 `;
 
 export const StyleStatList = styled.ul`
@@ -23,6 +24,8 @@ export const StyleStatList = styled.ul`
   justify-content: space-around;
   flex-direction: row;
   border: 2px solid gray;
+  width: 300px;
+  padding: 10px;
 `;
 export const StyledList = styled.li`
   margin-left: auto;

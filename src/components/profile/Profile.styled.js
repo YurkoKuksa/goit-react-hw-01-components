@@ -11,9 +11,9 @@ export const StyledWrapper = styled.div`
 export const StyledDescription = styled.div`
   margin: 0 auto;
   padding-top: 60px;
-  width: 315px;
+  width: 500px;
 
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 `;
 
 export const StyledAvatar = styled.img`
@@ -21,20 +21,24 @@ export const StyledAvatar = styled.img`
   outline: 1px solid #fff;
   width: 300px;
   height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 `;
 
 export const StyledUsername = styled.p`
   font-size: 30px;
   font-weight: 700;
   color: darkblue;
+  text-align: center;
 `;
 
 export const StyledParagraph = styled.p`
   font-size: 18px;
   font-weight: 600;
   color: #686868;
-  margin-right: 50px;
-  margin-left: auto;
+
+  text-align: center;
 `;
 
 export const StyledStats = styled.ul`
@@ -47,6 +51,8 @@ export const StyledStats = styled.ul`
   justify-content: center;
   /* outline: 1px solid red; */
   width: 230px;
+
+  padding: 0;
 `;
 
 export const StyledList = styled.li`
