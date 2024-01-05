@@ -5,8 +5,9 @@ export const StyledStat = styled.section`
   background-color: #aaaaaa;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: ${({ theme }) => theme.spacing(5)};
+  padding: ${({ theme }) => theme.spacing(5)};
+  box-shadow: ${({ theme }) => theme.shadows.regular};
 `;
 
 export const StyledTitle = styled.h2`
@@ -63,23 +64,23 @@ export const StyledList = styled.li`
   } */
 
   &:nth-child(1) {
-    background-color: #8b008b; /* DarkMagenta */
+    background-color: ${({ theme }) => theme.colors.darkMagenta};
   }
 
   &:nth-child(2) {
-    background-color: #dc143c; /* Crimson */
+    background-color: ${({ theme }) => theme.colors.crimson};
   }
 
   &:nth-child(3) {
-    background-color: #1e90ff; /* DodgerBlue */
+    background-color: ${({ theme }) => theme.colors.dodgerBlue};
   }
 
   &:nth-child(4) {
-    background-color: #008000; /* Green */
+    background-color: ${({ theme }) => theme.colors.green};
   }
 
   &:nth-child(5) {
-    background-color: #ff8c00; /* DarkOrange */
+    background-color: ${({ theme }) => theme.colors.darkOrange};
   }
 `;
 

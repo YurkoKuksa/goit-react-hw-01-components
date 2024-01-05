@@ -5,7 +5,8 @@ export const StyledTable = styled.table`
   background-color: #aaaaaa;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: ${({ theme }) => theme.spacing(5)};
+  box-shadow: ${({ theme }) => theme.shadows.regular};
 `;
 
 export const StyledThead = styled.thead``;

@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-  h1,
+  /* h1,
   h2,
   h3,
   h4,
@@ -9,14 +9,14 @@ export const GlobalStyle = createGlobalStyle`
   h6,
   p {
     margin: 0;
-  }
+  } */
 
-  ul,
+  /* ul,
   ol {
     list-style: none;
     padding-left: 0;
     margin: 0;
-  }
+  } */
 
   button {
     padding: 0;

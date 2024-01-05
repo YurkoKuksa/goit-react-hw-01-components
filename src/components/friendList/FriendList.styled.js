@@ -5,13 +5,15 @@ export const StyledWrapper = styled.ul`
   background-color: lightgray;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: ${({ theme }) => theme.spacing(5)};
   color: red;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   list-style-type: none;
+  box-shadow: ${({ theme }) => theme.shadows.regular};
+  padding: ${({ theme }) => theme.spacing(5)};
 `;
 
 // export const StyledElement = styled.span``;

@@ -5,16 +5,19 @@ export const StyledWrapper = styled.div`
   width: 800px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: ${({ theme }) => theme.spacing(5)};
+  padding: ${({ theme }) => theme.spacing(5)};
+  box-shadow: ${({ theme }) => theme.shadows.regular};
 `;
 
 export const StyledDescription = styled.div`
   margin: 0 auto;
   padding-top: 60px;
+  /* padding-bottom: 5px; */
   width: 500px;
 
-  outline: 1px solid red;
+  outline: 1px solid #e0e0e0;
+  box-shadow: ${({ theme }) => theme.shadows.small};
 `;
 
 export const StyledAvatar = styled.img`
@@ -32,6 +35,7 @@ export const StyledUsername = styled.p`
   font-weight: 700;
   color: darkblue;
   text-align: center;
+  /* margin: 0; */
 `;
 
 export const StyledParagraph = styled.p`
@@ -40,6 +44,7 @@ export const StyledParagraph = styled.p`
   color: #686868;
 
   text-align: center;
+  margin-bottom: 20px;
 `;
 
 export const StyledStats = styled.ul`
