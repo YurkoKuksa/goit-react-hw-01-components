@@ -6,15 +6,16 @@ export const Picture = styled.img`
 `;
 
 export const List = styled.li`
-  padding: 30px;
+  padding: 10px;
   /* outline: 1px solid red; */
   width: 200px;
+  margin-top: 20px;
 `;
 
 export const Element = styled.span`
   display: block;
   margin-left: 30px;
-  margin-bottom: -50px;
+  margin-bottom: -30px;
   width: 20px;
   height: 20px;
   background-color: ${props => (props.element ? 'green' : 'red')};
@@ -36,4 +37,5 @@ export const Element = styled.span`
 export const NameParagraph = styled.p`
   color: green;
   text-align: center;
+  margin: 5px 0 0 0;
 `;
