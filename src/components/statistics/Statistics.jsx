@@ -7,10 +7,10 @@ import {
   StyledTitle,
 } from './Statistic.styled';
 
-export const Statistics = ({ data }) => {
+export const Statistics = ({ data, title }) => {
   return (
     <StyledStat>
-      <StyledTitle>Upload stats</StyledTitle>
+      {title && <StyledTitle>{title}</StyledTitle>}
       <StyleStatList>
         {data.map(item => (
           <StyledList key={item.id}>

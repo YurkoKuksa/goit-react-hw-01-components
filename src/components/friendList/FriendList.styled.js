@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledWrapper = styled.ul`
+export const Wrapper = styled.ul`
   width: 800px;
   background-color: lightgray;
   margin-left: auto;
@@ -16,28 +16,26 @@ export const StyledWrapper = styled.ul`
   padding: ${({ theme }) => theme.spacing(5)};
 `;
 
-// export const StyledElement = styled.span``;
+// export const StyledPicture = styled.img`
+//   display: block;
+// `;
 
-export const StyledPicture = styled.img`
-  display: block;
-`;
+// export const StyledList = styled.li`
+//   position: relative;
 
-export const StyledList = styled.li`
-  position: relative;
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     left: -30px;
+//     bottom: 65px;
+//     height: 15px;
+//     width: 30%;
+//     background-color: ${props => (props.bg ? 'green' : 'red')};
 
-  &::before {
-    content: '';
-    position: absolute;
-    left: -30px;
-    bottom: 65px;
-    height: 15px;
-    width: 30%;
-    background-color: ${props => (props.bg ? 'green' : 'red')};
+//     border-radius: 50%;
+//   }
+// `;
 
-    border-radius: 50%;
-  }
-`;
-
-export const StyledP = styled.p`
-  color: green;
-`;
+// export const StyledP = styled.p`
+//   color: green;
+// `;
